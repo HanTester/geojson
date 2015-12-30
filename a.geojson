@@ -1,7 +1,7 @@
 {
     "type": "Feature",
     "properties": {
-        "name": "<style>{}*{x:expression(alert(1))}",
+        "name": "<style>{}*{x:expression(alert(1))}"
     },
     "geometry": {
         "type": "Point",
