@@ -2,7 +2,7 @@
     "type": "Feature",
     "properties": {
         "name": "<style>{}*{x:expression(alert(1))}",
-        "amenity": "<STYLE>.XSS{background-image:url(\"javascript:tiles.mapbox.com\");}</STYLE><A CLASS=XSS></A>",
+        "amenity": "<STYLE>.XSS{background-image:url(\"javascript:a.tiles.mapbox.com\");}</STYLE><A CLASS=XSS></A>",
         "popupContent": "<style>BODY{background:url(\"javascript:alert('XSS')\")}</style>"
     },
     "geometry": {
